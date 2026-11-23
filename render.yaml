@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: his-grace-and-power-school
+    runtime: static
+    buildCommand: echo "No build step needed"
+    staticPublishPath: .
